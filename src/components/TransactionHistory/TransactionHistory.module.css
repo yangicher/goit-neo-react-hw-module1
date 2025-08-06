@@ -1,0 +1,31 @@
+.table,
+.title,
+.cell {
+  border: 2px solid black;
+}
+
+.title,
+.cell {
+  padding: 5px 10px;
+}
+
+.table {
+  margin: 20px auto 0;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+.title {
+  font-weight: bold;
+  background-color: grey;
+  color: white;
+}
+
+.dark {
+  background-color: gainsboro;
+}
+
+.cell.first {
+  text-align: left;
+  text-transform: capitalize;
+}
