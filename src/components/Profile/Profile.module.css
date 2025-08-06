@@ -1,0 +1,56 @@
+.card {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: gray;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tag,
+.location {
+  font-size: 30px;
+  color: grey;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 2px solid gray;
+}
+
+.list {
+  padding: 20px;
+  background-color: lightgrey;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.numbers {
+  font-size: 20px;
+  font-weight: bold;
+}
